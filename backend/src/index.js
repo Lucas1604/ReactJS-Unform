@@ -4,7 +4,7 @@ const cors = require('cors');
 
 const app = express();
 
-mongoose.connect('mongodb://react-unform:react123@ds157136.mlab.com:57136/react-unform', {useNewUrlParser: true});
+mongoose.connect('mongodb://usuario*:senha*@ds157136.mlab.com:57136/react-unform', {useNewUrlParser: true});
 
 app.use(cors());
 app.use(express.json());
